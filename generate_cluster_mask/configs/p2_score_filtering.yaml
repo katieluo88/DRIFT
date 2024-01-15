@@ -1,0 +1,21 @@
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+defaults:
+  - data_paths: default.yaml
+  - _self_
+
+result_path: ???
+save_path: ???
+dataset: lyft
+
+n_processes: 8
+
+det_filtering:
+  pp_score_percentile: 20
+  pp_score_threshold: 0.5
+  and_operation: False
+  confidence_score_threshold: -1
+  soft_pp_score_threshold: 999.
+  soft_confidence_score_threshold: -1
+

@@ -1,0 +1,5 @@
+pp_score_path: ${work_dir}/generate_cluster_mask/precomputed_p2/ithaca365/p2_score_fw70_5m_20hist
+ptc_path: ${work_dir}/downstream/OpenPCDet/data/ithaca365/v1.1
+version: 'v1.1'
+bbox_info_save_dst: ${work_dir}/generate_cluster_mask/intermediate_results/ithaca365_bbox_pp_score_fw70_5m_20hist_02filtering_knn/
+seed_labels_info_path: ${work_dir}/generate_cluster_mask/intermediate_results/ithaca365_bbox_pp_score_fw70_5m_20hist_02filtering_knn.pkl

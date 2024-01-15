@@ -1,0 +1,34 @@
+data_preprocessing/lyft/verify_lyft.pkl
+**.ipynb
+notebooks
+**.pyc
+**/wandb/
+**/intermediate_results/
+downstream/OpenPCDet/tools/outputs/
+generate_cluster_mask/outputs
+generate_class_cluster/data/
+generate_class_cluster/outputs
+generate_class_cluster/cluster_outputs
+generate_class_cluster/filtered_05_object_cluster_outputs
+generate_class_cluster/filtered_object_cluster_outputs
+generate_class_cluster/modest_predictions_cluster
+logs/
+
+
+**__pycache__**
+**build**
+**egg-info**
+# **dist**
+*.idea/
+*.so
+# *.yaml
+# *.sh
+*.pth
+# *.pkl
+*.zip
+*.bin
+output
+outputs
+version.py
+**.egg
+pyrightconfig.json

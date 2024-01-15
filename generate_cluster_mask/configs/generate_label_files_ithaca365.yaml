@@ -1,0 +1,14 @@
+defaults:
+  - data_paths: ithaca365.yaml
+
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+# total_part: 1
+# part: 0
+
+image_shape: [1208, 1920]
+fov_only: True
+nms:
+  enable: True
+  threshold: 0.1

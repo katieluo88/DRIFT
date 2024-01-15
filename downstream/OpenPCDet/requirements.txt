@@ -1,0 +1,10 @@
+numpy
+torch>=1.1
+numba
+tensorboardX
+easydict
+pyyaml==5.4.1
+scikit-image
+tqdm
+kornia
+torchvision
