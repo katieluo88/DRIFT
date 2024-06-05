@@ -115,6 +115,11 @@ python generate_cluster_mask/pre_compute_p2_score.py dataset="ithaca365" data_pa
 ```
 
 ## DRIFT Training and Evaluation
+
+#### DRIFT File Changes
+All DRIFT training step changes are incorporated into the `forward()` call of PointRCNN, located here: `downstream/OpenPCDet/pcdet/models/detectors/point_rcnn.py`.
+All DRIFT rewards and reward helper-functions are located in `downstream/OpenPCDet/pcdet/models/model_utils/rewards.py`. Exploration and additional util functions can be found in `downstream/OpenPCDet/pcdet/models/model_utils/unsupervised_regression_utils.py`.
+
 #### Launch Training
 Results reported in the paper are trained using 4 GPUs. To launch training on 4 GPUs, activate the conda environment and run the following self-training scripts:
 
